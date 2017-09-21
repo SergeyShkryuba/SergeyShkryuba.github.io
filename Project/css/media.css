@@ -1,0 +1,85 @@
+@media only screen and (max-width: 1200px) {}
+
+@media only screen and (max-width: 992px) {}
+
+@media only screen and (max-width: 768px) {
+    .s_about_content p {
+        padding: 0 15px !important;
+        margin: 30px 0 40px !important;
+    }
+    .s_portfolio_btn {
+        margin-top: 40px !important;
+    }
+    .s_services_content {
+        margin-top: 40px !important;
+    }
+    .inner_wrap h3 {
+        margin-top: 15%;
+        font-size: 1em !important;
+    }
+    .inner_wrap p {
+        font-size: 0.925em !important;
+    }
+    .bx-wrapper .bx-prev,
+    .bx-wrapper .bx-next {
+        display: none;
+    }
+    .clients_items li {
+        width: 50% !important;
+    }
+}
+
+@media only screen and (max-width: 680px) {
+    .blog_item_on {
+        display: none !important;
+    }
+    .blog_item_hidden {
+        display: inline-block !important;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .top_wrapper .top_title h1 {
+        font-size: 1.8em !important;
+    }
+    .top_wrapper .top_title p {
+        font-size: 1.1em !important;
+    }
+    .main_nav {
+        margin-top: 75px !important;
+    }
+    .btn {
+        font-size: 0.925em !important;
+    }
+    section {
+        padding: 30px 0 40px !important;
+    }
+    section h2 {
+        font-size: 1.8em !important;
+    }
+    section h3 {
+        font-size: 1.4em !important;
+    }
+    section p {
+        font-size: 1.1em !important;
+        line-height: 1.4em !important;
+    }
+    .s_portfolio li {
+        font-size: 0.750em !important;
+    }
+    .item_cont p {
+        font-size: 0.925em !important;
+    }
+    .item_cont .look {
+        font-size: 0.750em !important;
+        padding: 5px 15px !important;
+    }
+    .person {
+        margin: 15px 0 15px !important;
+    }
+    .circular_bar {
+        margin: 80px 0 !important;
+    }
+}
+
+@media only screen and (max-width: 320px) {}

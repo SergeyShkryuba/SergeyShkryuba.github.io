@@ -1,0 +1,42 @@
+$bg-color: #3d3d3d;
+$th-color: #F4C60B;
+.clearfix:after {
+    &:before,
+    &:after {
+        content: '';
+        clear: both;
+    }
+}
+
+.t_cr {
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    padding: 5px 35px;
+    font-size: 1.25em;
+    font-weight: 600;
+    color: #333;
+    text-transform: uppercase;
+    border: 2px solid $th-color;
+    &:hover,
+    &:focus {
+        text-decoration: none;
+        color: #555;
+    }
+}
+
+.s_portfolio {
+    li:last-child {
+        border-right: 1px solid $th-color;
+    }
+    li:hover {
+        color: #fff;
+        background: $th-color;
+    }
+    li.active {
+        color: #fff;
+        background: $th-color;
+    }
+}
