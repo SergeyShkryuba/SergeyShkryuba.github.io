@@ -1,17 +1,17 @@
 $(document).ready(function() {
-	//плавный скрол
+	//fluent scroll
 	$(".navigation a[href*='#'], .f_content a[href*='#']").mPageScroll2id();
-    //плитка с изображениями
+    //images grid
 	$("#portfolio_grid").mixItUp();
-	//навигация портфолио
+	//portfolio navigation
 	$(".s_portfolio_content li").click(function () {
 		$(".s_portfolio_content li").removeClass("active");
 		$(this).addClass("active");
 	});
-	//просмотр работ
+	//popup
 	$(".popup").magnificPopup({type:"image"});
 	$(".popup_content").magnificPopup({type:"inline"});
-	//анимирование элементов
+	//elements animation
 	$(".top_title h1").animated("fadeInDown", "fadeOutUp");
 	$(".top_title p").animated("fadeInUp", "fadeOutDown");
 	$("section h2").animated("fadeInDown", "fadeOutUp");
@@ -19,9 +19,9 @@ $(document).ready(function() {
 	$(".btn").animated("fadeInUp", "fadeOutDown");
 	$(".circular_bar").animated("zoomIn", "zoomOut");
 	$(".pricing_item_on").animated("flipInY", "flipOutY");
-	//слайдер
+	//slider
 	$('.bxslider').bxSlider();
-	//счетчик размера окна браузера
+	//browser window resize counter
     function heightDetect() {
         $('.main_head').css('height', $(window).height());
     };
@@ -29,7 +29,7 @@ $(document).ready(function() {
     $(window).resize(function() {
         heightDetect();
     });
-    //меню
+    //navigation
     $(".navigation ul li a").click(function() {
 		$(".navigation").fadeOut(600);
 	});
@@ -42,7 +42,7 @@ $(document).ready(function() {
     		$(".navigation ul li a").addClass("fadeInUp animated");
     	}
     });
-    //прелоадер сайта
+    //preloading
 	$(window).load(function() {
     	$(".loader_inner").fadeOut();
     	$(".loader").delay(400).fadeOut("slow");
