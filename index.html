@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="en">
+<!--<![endif]-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazing world</title>
+    <link rel="stylesheet" href="libs/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="libs/animate/animate.css">
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="libs/magnific-popup/magnific-popup.css">
+    <link rel="stylesheet" href="libs/bx-slider/jquery.bxslider.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!--[if lt IE 8]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <!--[if lt IE 9]>
+	<script src="libs/html5shiv/es5-shim.min.js"></script>
+	<script src="libs/html5shiv/html5shiv.min.js"></script>
+	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="libs/respond/respond.min.js"></script>
+	<![endif]-->
+    <div class="loader">
+        <div class="loader_inner"></div>
+    </div>
+    <header id="home" class="main_head" data-parallax="scroll" data-image-src="images/bg.jpg">
+        <div class="container">
+            <div class="row">
+                <div class="logo">
+                    <a href="#"><img src="images/logo.png" alt="alt"></a>
+                </div>
+            </div>
+        </div>
+        <button class="toggle_btn"><i class="fa fa-bars"></i></button>
+        <nav class="navigation">
+            <ul class="main_nav">
+                <li><a href="#home">home</a></li>
+                <li><a href="#about">about</a></li>
+                <li><a href="#portfolio">portfolio</a></li>
+                <li><a href="#pricing">pricing</a></li>
+                <li><a href="#clients">clients</a></li>
+                <li><a href="#contact">contacts</a></li>
+            </ul>
+        </nav>
+        <div class="top_wrapper">
+            <div class="top_inner">
+                <div class="top_center">
+                    <div class="top_title">
+                        <h1>Beauty of the world</h1>
+                        <p>Lorem ipsum dolor sit amet</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section id="about" class="s_about">
+        <div class="about_title_wrap t_cr">
+            <h2>About Us</h2>
+        </div>
+        <div class="s_about_content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam nulla cumque quisquam ipsum consequuntur dignissimos aperiam, placeat animi optio dicta iure. Tenetur molestiae alias eligendi, nobis, rem officiis dolores similique nostrum ipsa. Vitae rem dolorum iusto repudiandae enim qui maiores iste. Laboriosam laborum eum eos, soluta saepe, a temporibus error officiis placeat, nobis iusto odit totam alias exercitationem iure sed magni quia dolor. Nostrum neque reprehenderit quae non magnam a totam qui voluptate provident facilis sunt officia, accusantium minus, dolorum earum tempore aliquid ut, laboriosam officiis ipsum amet dolores iure unde nihil tempora. Veniam, neque voluptas magnam perferendis numquam aliquam.</p>
+                        <div class="s_about_btn t_cr">
+                            <a href="#" class="btn">load more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="portfolio" class="s_portfolio">
+        <div class="portfolio_title_wrap t_cr">
+            <h2>Portfolio</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam harum, sequi! Distinctio optio quidem quos</p>
+        </div>
+        <div class="s_portfolio_content">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="filter_div controls">
+                        <ul>
+                            <li class="filter active" data-filter="all">all</li>
+                            <li class="filter" data-filter=".category_1">fashion</li>
+                            <li class="filter" data-filter=".category_2">people</li>
+                            <li class="filter" data-filter=".category_3">architecture</li>
+                        </ul>
+                    </div>
+                    <div id="portfolio_grid">
+                        <div class="mix col-md-3 col-sm-6 col-xs-6 portfolio_item category_1">
+                            <img src="images/folio1.jpg" alt="alt">
+                            <div class="item_cont">
+                                <p>Work name</p>
+                                <a href="#work_1" class="look popup_content">look it now</a>
+                            </div>
+                            <div class="hidden">
+                                <div id="work_1" class="popup_descr">
+                                    <img src="images/folio1.jpg" alt="alt">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem pariatur, consequatur. Illo, repudiandae sunt rem omnis debitis dolor tenetur exercitationem!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mix col-md-3 col-sm-6 col-xs-6 portfolio_item category_1">
+                            <img src="images/folio2.jpg" alt="alt">
+                            <div class="item_cont">
+                                <p>Work name</p>
+                                <a href="#work_2" class="look popup_content">look it now</a>
+                            </div>
+                            <div class="hidden">
+                                <div id="work_2" class="popup_descr">
+                                    <img src="images/folio2.jpg" alt="alt">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem pariatur, consequatur. Illo, repudiandae sunt rem omnis debitis dolor tenetur exercitationem!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mix col-md-3 col-sm-6 col-xs-6 portfolio_item category_1">
+                            <img src="images/folio3.jpg" alt="alt">
+                            <div class="item_cont">
+                                <p>Work name</p>
+                                <a href="#work_3" class="look popup_content">look it now</a>
+                            </div>
+                            <div class="hidden">
+                                <div id="work_3" class="popup_descr">
+                                    <img src="images/folio3.jpg" alt="alt">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem pariatur, consequatur. Illo, repudiandae sunt rem omnis debitis dolor tenetur exercitationem!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mix col-md-3 col-sm-6 col-xs-6 portfolio_item category_2">
+                            <img src="images/folio4.jpg" alt="alt">
+                            <div class="item_cont">
+                                <p>Work name</p>
+                                <a href="#work_4" class="look popup_content">look it now</a>
+                            </div>
+                            <div class="hidden">
+                                <div id="work_4" class="popup_descr">
+                                    <img src="images/folio4.jpg" alt="alt">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem pariatur, consequatur. Illo, repudiandae sunt rem omnis debitis dolor tenetur exercitationem!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mix col-md-3 col-sm-6 col-xs-6 portfolio_item category_2">
+                            <img src="images/folio5.jpg" alt="alt">
+                            <div class="item_cont">
+                                <p>Work name</p>
+                                <a href="#work_5" class="look popup_content">look it now</a>
+                            </div>
+                            <div class="hidden">
+                                <div id="work_5" class="popup_descr">
+                                    <img src="images/folio5.jpg" alt="alt">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem pariatur, consequatur. Illo, repudiandae sunt rem omnis debitis dolor tenetur exercitationem!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mix col-md-3 col-sm-6 col-xs-6 portfolio_item category_2">
+                            <img src="images/folio6.jpg" alt="alt">
+                            <div class="item_cont">
+                                <p>Work name</p>
+                                <a href="#work_6" class="look popup_content">look it now</a>
+                            </div>
+                            <div class="hidden">
+                                <div id="work_6" class="popup_descr">
+                                    <img src="images/folio6.jpg" alt="alt">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem pariatur, consequatur. Illo, repudiandae sunt rem omnis debitis dolor tenetur exercitationem!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mix col-md-3 col-sm-6 col-xs-6 portfolio_item category_3">
+                            <img src="images/folio7.jpg" alt="alt">
+                            <div class="item_cont">
+                                <p>Work name</p>
+                                <a href="#work_7" class="look popup_content">look it now</a>
+                            </div>
+                            <div class="hidden">
+                                <div id="work_7" class="popup_descr">
+                                    <img src="images/folio7.jpg" alt="alt">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem pariatur, consequatur. Illo, repudiandae sunt rem omnis debitis dolor tenetur exercitationem!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mix col-md-3 col-sm-6 col-xs-6 portfolio_item category_3">
+                            <img src="images/folio8.jpg" alt="alt">
+                            <div class="item_cont">
+                                <p>Work name</p>
+                                <a href="#work_8" class="look popup_content">look it now</a>
+                            </div>
+                            <div class="hidden">
+                                <div id="work_8" class="popup_descr">
+                                    <img src="images/folio8.jpg" alt="alt">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem pariatur, consequatur. Illo, repudiandae sunt rem omnis debitis dolor tenetur exercitationem!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="s_portfolio_btn t_cr">
+                <a href="#" class="btn">load more</a>
+            </div>
+        </div>
+    </section>
+    <section id="team" class="s_team">
+        <div class="team_title_wrap t_cr">
+            <h2>Our team</h2>
+        </div>
+        <div class="s_team_content">
+            <div class="container">
+                <div class="row">
+                    <div class="s_team_items t_cr">
+                        <div class="person">
+                            <div class="person_image">
+                                <img src="images/person1.jpg" alt="alt">
+                            </div>
+                            <div class="person_title">
+                                <h3>Darlene Kelly</h3>
+                                <p>creative director</p>
+                            </div>
+                        </div>
+                        <div class="person">
+                            <div class="person_image">
+                                <img src="images/person2.jpg" alt="alt">
+                            </div>
+                            <div class="person_title">
+                                <h3>Darlene Kelly</h3>
+                                <p>photographer</p>
+                            </div>
+                        </div>
+                        <div class="person">
+                            <div class="person_image">
+                                <img src="images/person3.jpg" alt="alt">
+                            </div>
+                            <div class="person_title">
+                                <h3>Darlene Kelly</h3>
+                                <p>graphic designer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="skills" class="s_skills">
+        <div class="skills_title_wrap t_cr">
+            <h2>Our skills</h2>
+        </div>
+        <div class="s_skills_content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-sm-4">
+                        <div class="circular_bar">
+                            <input type="text" class="dial" data-fgColor="#F4C60B" data-width="150" data-height="150" data-linecap="round" value="75">
+                            <div class="circular_bar_content">
+                                <label></label>
+                            </div>
+                        </div>
+                        <p class="bar_title">Design</p>
+                    </div>
+                    <div class="col-md-4 col-sm-4">
+                        <div class="circular_bar">
+                            <input type="text" class="dial" data-fgColor="#F4C60B" data-width="150" data-height="150" data-linecap="round" value="90">
+                            <div class="circular_bar_content">
+                                <label></label>
+                            </div>
+                        </div>
+                        <p class="bar_title">Photography</p>
+                    </div>
+                    <div class="col-md-4 col-sm-4">
+                        <div class="circular_bar">
+                            <input type="text" class="dial" data-fgColor="#F4C60B" data-width="150" data-height="150" data-linecap="round" value="30">
+                            <div class="circular_bar_content">
+                                <label></label>
+                            </div>
+                        </div>
+                        <p class="bar_title">Music</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="s_window">
+        <div class="container">
+            <div class="row">
+                <div class="s_window_inner">
+                    <p class="s_window_title">True beauty is something that attacks, overpowers, robs, and finally destroys.</p>
+                    <p class="s_window_descr">Yukio Mishima</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="services" class="s_services">
+        <div class="services_title_wrap t_cr">
+            <h2>Services</h2>
+        </div>
+        <div class="s_services_content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="services_image">
+                            <img src="images/serv1.png" alt="alt">
+                        </div>
+                        <div class="services_text t_cr">
+                            <h3>creativity</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi vero assumenda nisi ea reprehenderit a eos magnam enim sint vitae, omnis, fugit. Adipisci labore, numquam.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="services_image">
+                            <img src="images/serv2.png" alt="alt">
+                        </div>
+                        <div class="services_text t_cr">
+                            <h3>photography</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi vero assumenda nisi ea reprehenderit a eos magnam enim sint vitae, omnis, fugit. Adipisci labore, numquam.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="services_image">
+                            <img src="images/serv3.png" alt="alt">
+                        </div>
+                        <div class="services_text t_cr">
+                            <h3>performance</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi vero assumenda nisi ea reprehenderit a eos magnam enim sint vitae, omnis, fugit. Adipisci labore, numquam.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="pricing" class="s_pricing">
+        <div class="pricing_title_wrap t_cr">
+            <h2>Pricing</h2>
+        </div>
+        <div class="s_pricing_content">
+            <div class="container">
+                <div class="row">
+                    <div class="pricing_items t_cr">
+                        <div class="pricing_item_on t_cr">
+                            <h3>basic</h3>
+                            <p>10<span>$</span></p>
+                            <ul class="pricing_item_lists">
+                                <li>24/7 support</li>
+                                <li>free domain</li>
+                                <li>modern design</li>
+                            </ul>
+                            <a href="#">buy now</a>
+                        </div>
+                        <div class="pricing_item_on t_cr">
+                            <h3>professional</h3>
+                            <p>30<span>$</span></p>
+                            <ul class="pricing_item_lists">
+                                <li>24/7 support</li>
+                                <li>free domain</li>
+                                <li>modern design</li>
+                            </ul>
+                            <a href="#">buy now</a>
+                        </div>
+                        <div class="pricing_item_on t_cr">
+                            <h3>vip</h3>
+                            <p>50<span>$</span></p>
+                            <ul class="pricing_item_lists">
+                                <li>24/7 support</li>
+                                <li>free domain</li>
+                                <li>modern design</li>
+                            </ul>
+                            <a href="#">buy now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="blog" class="s_blog">
+        <div class="blog_title_wrap t_cr">
+            <h2>From blog</h2>
+        </div>
+        <div class="s_blog_content">
+            <div class="container">
+                <div class="row">
+                    <div class="bxslider">
+                        <div class="blog_items t_cr">
+                            <div class="blog_item_on">
+                                <img src="images/slide-item1.jpg" alt="alt">
+                                <div class="blog_item_inner">
+                                    <div class="inner_wrap">
+                                        <h3>summer photos</h3>
+                                        <p><span>15</span>june</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum ad ipsa, odio.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="blog_item_on t_cr">
+                                <img src="images/slide-item2.jpg" alt="alt">
+                                <div class="blog_item_inner">
+                                    <div class="inner_wrap">
+                                        <h3>business event</h3>
+                                        <p><span>15</span>june</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum ad ipsa, odio.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="blog_item_on t_cr">
+                                <img src="images/slide-item3.jpg" alt="alt">
+                                <div class="blog_item_inner">
+                                    <div class="inner_wrap">
+                                        <h3>nice day</h3>
+                                        <p><span>15</span>june</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum ad ipsa, odio.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="blog_item_hidden t_cr">
+                                <img src="images/slide-item2.jpg" alt="alt">
+                                <div class="blog_item_inner">
+                                    <div class="inner_wrap">
+                                        <h3>summer photos</h3>
+                                        <p><span>15</span>june</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum ad ipsa, odio.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="blog_items t_cr">
+                            <div class="blog_item_on t_cr">
+                                <img src="images/slide-item1.jpg" alt="alt">
+                                <div class="blog_item_inner">
+                                    <div class="inner_wrap">
+                                        <h3>summer photos</h3>
+                                        <p><span>15</span>june</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum ad ipsa, odio.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="blog_item_on t_cr">
+                                <img src="images/slide-item2.jpg" alt="alt">
+                                <div class="blog_item_inner">
+                                    <div class="inner_wrap">
+                                        <h3>business event</h3>
+                                        <p><span>15</span>june</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum ad ipsa, odio.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="blog_item_on t_cr">
+                                <img src="images/slide-item3.jpg" alt="alt">
+                                <div class="blog_item_inner">
+                                    <div class="inner_wrap">
+                                        <h3>nice day</h3>
+                                        <p><span>15</span>june</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum ad ipsa, odio.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="blog_item_hidden t_cr">
+                                <img src="images/slide-item1.jpg" alt="alt">
+                                <div class="blog_item_inner">
+                                    <div class="inner_wrap">
+                                        <h3>summer photos</h3>
+                                        <p><span>15</span>june</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum ad ipsa, odio.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="clients" class="s_clients">
+        <div class="clients_title_wrap t_cr">
+            <h2>Our clients</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+        </div>
+        <div class="s_clients_content">
+            <div class="container-fluid">
+                <div class="row">
+                    <ul class="clients_items">
+                        <li>
+                            <a href="#"><img src="images/clients/client1.png" alt="alt"></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="images/clients/client2.png" alt="alt"></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="images/clients/client3.png" alt="alt"></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="images/clients/client4.png" alt="alt"></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="images/clients/client5.png" alt="alt"></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="images/clients/client6.png" alt="alt"></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="images/clients/client7.png" alt="alt"></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="images/clients/client8.png" alt="alt"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="s_contact">
+        <div class="contact_title_wrap t_cr">
+            <h2>Contact us</h2>
+        </div>
+        <div class="s_contact_content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-md-push-3">
+                        <form action="#" class="message">
+                            <input type="text" id="first_t" placeholder="Name" required>
+                            <input type="text" id="second_t" placeholder="E-mail" required>
+                            <textarea name="complain" id="some_text" cols="30" rows="10"></textarea>
+                            <input type="submit" id="message_btn" value="Submit">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="foot">
+        <div class="container">
+            <div class="row">
+                <div class="f_content t_cr">
+                    <a href="#home"><img src="images/logo.png" alt="to-top"></a>
+                    <h3>beauty of the world</h3>
+                    <p id="foot_text">Lorem ipsum dolor sit amet</p>
+                    <a href="https://plus.google.com" target="_blank"><i class="fa fa-google-plus"></i></a>
+                    <a href="https://facebook.com" target="_blank"><i class="fa fa-facebook"></i></a>
+                    <a href="https://twitter.com" target="_blank"><i class="fa fa-twitter"></i></a>
+                    <p id="copyrights">Carphatian &#169; 2014. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="libs/jquery/jquery-1.11.3.min.js"></script>
+    <script src="libs/paralax/parallax.min.js"></script>
+    <script src="libs/waypoints/waypoints.min.js"></script>
+    <script src="libs/animate/animate-css.js"></script>
+    <script src="libs/mixitup/jquery.mixitup.js"></script>
+    <script src="libs/magnific-popup/magnific-popup.js"></script>
+    <script src="libs/scroll2id/jquery.malihu.PageScroll2id.min.js"></script>
+    <script src="libs/knob/jqury.knob.js"></script>
+    <script src="libs/progress/bar.js"></script>
+    <script src="libs/bx-slider/jquery.bxslider.js"></script>
+    <script src="js/common.js"></script>
+</body>
+
+</html>
